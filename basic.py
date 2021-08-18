@@ -27,7 +27,7 @@ eroded = cv.erode(dilated, (3, 3), iterations=1)
 cv.imshow('Eroded', eroded)
 
 
-# Resize 
+# Resize, interpolation means to estimate the value in between that isn't determined
 resized = cv.resize(img, (100, 100), interpolation=cv.INTER_AREA)
 cv.imshow('Resized', resized)
 
