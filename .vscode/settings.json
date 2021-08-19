@@ -1,0 +1,5 @@
+{
+    "python.workspaceSymbols.enabled": true,
+    "python.languageServer": "Jedi",
+    "python.linting.enabled": false
+}

@@ -1,0 +1,13 @@
+Face detector - Detect whether or not a face is present in the image
+Face recognition - Identifying who's face it is
+
+Face detection - Performed using classifier, determine whether or not
+face is present or not, positive or negative
+
+Classifier needs to be trained on thousands of data
+
+opencv already has trained a face detection classifier
+https://github.com/opencv/opencv/tree/master/data/haarcascades 
+
+Classifier for eyes, lowerbody
+
